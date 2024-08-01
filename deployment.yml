@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: container-app
-        image: containertest123.azurecr.io/containersession:1185
+        image: containertest123.azurecr.io/containersession:latest
         resources:
           limits:
             memory: "3Gi"
